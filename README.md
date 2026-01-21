@@ -1,5 +1,13 @@
 # E-Commerce Customer Behavior Analysis
 
+# Google Colab Notebook
+
+The full analysis, including data cleaning, EDA, visualizations, and modeling,
+was performed in Google Colab.
+
+ Open the notebook here: 
+[View Analysis on Google Colab](https://colab.research.google.com/drive/1fE0nb0ECI5LEwA78DYaDv2q6DIT8S_Pj?usp=sharing)
+ 
  Project Overview
 This project presents an exploratory and predictive analysis of customer behavior data
 from an e-commerce platform. The objective is to understand how demographic factors,
