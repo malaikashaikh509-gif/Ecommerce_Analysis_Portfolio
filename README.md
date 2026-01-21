@@ -9,6 +9,13 @@ practical data analysis skills using Python.
 The analysis was performed in Google Colab using a single structured dataset and focuses
 on data cleaning, visualization, segmentation, and basic predictive modeling.
 
+# Business Problem
+The objective of this analysis is to understand how customer demographics
+and income influence engagement behavior on an e-commerce platform.
+The insights can help businesses improve customer targeting, engagement,
+and retention strategies.
+
+
 Dataset Description
 - Dataset name: E-commerce Customer Behaviour Dataset  
 - File used: `E-commerce_cleaned_segments.csv`  
@@ -67,21 +74,34 @@ The following visualizations were generated during the analysis:
 
 # Age Distribution
 ![Age Distribution](images/Age_Distribution.png)
+This visualization shows that most customers fall between the ages of 25 and 40,
+indicating a digitally active customer base that is likely to engage frequently
+with online shopping platforms.
 
 # Gender Distribution
 ![Gender Distribution](images/Gender_Distribution.png)
+The gender distribution appears relatively balanced, suggesting that the
+e-commerce platform attracts customers across genders without strong bias.
 
 # Income vs Engagement
 ![Income vs Engagement](images/Income_vs_Engagement.png)
+This chart indicates a positive relationship between annual income and time spent
+on the website, suggesting that higher-income customers tend to be more engaged.
 
 # Customer Segmentation
 ![Customer Segmentation](images/Customer_Segmentation.png)
+Customers are clearly grouped into low, medium, and high segments based on income
+and engagement, enabling targeted marketing and personalized strategies
 
 # Correlation Heatmap
 ![Correlation Heatmap](images/Correlation_Heatmap.png)
+The heatmap highlights time on site and annual income as key variables associated
+with customer engagement, supporting data-driven segmentation decisions.
 
 # Predictive Model Confusion Matrix
 ![Predictive Model](images/Predictive_Model_CM.png)
+The confusion matrix demonstrates that the predictive model can reasonably
+distinguish high-engagement customers using demographic and income features.
 
 
 
@@ -105,3 +125,10 @@ This project was developed as a portfolio case study to demonstrate:
 - Visualization skills
 - Basic machine learning application
 - Clear communication of analytical findings
+
+# Results & Business Impact
+- Identified high-engagement customer segments based on income and time on site
+- Highlighted time on site as a strong indicator of customer value
+- Demonstrated how data-driven segmentation can support targeted marketing
+- Built a basic predictive model to classify high-engagement users
+
